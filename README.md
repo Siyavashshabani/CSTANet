@@ -32,9 +32,6 @@ data/
 
 ## Running the Code
 
-This repository is built upon the foundational work provided in [Synapse](https://github.com/LeonidAlekseev/Swin-UNETR). 
-
-
 ## Training
 
 Before training the configs.json file should be filled:
@@ -64,8 +61,7 @@ python3.10 main.py
 ## Results
 
 ### Quantitative
-![](diagram/results_num.jpg)
-
+![](diagram/synapse_num.jpg)
 
 ### Visulization 
 ## Synapse 
@@ -74,9 +70,6 @@ python3.10 main.py
 ## ACDC
 ![](diagram/acdc_vis.png)
 
-
-## Testing 
-Comming soon 
 
 ## Citation
 If any part of this code is used, please give appropriate citations to our paper. <br />
