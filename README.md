@@ -12,11 +12,13 @@ source CSTANet_env/bin/activate
 pip install -r requirements.txt
 ```
 
-## Dataset
+## Datasets
 
-Download data from: https://www.synapse.org/#!Synapse:syn3193805/wiki/89480
+Download synapse dataset here: https://www.synapse.org/#!Synapse:syn3193805/wiki/89480
 
-### Structure of data folders 
+Download ACDC dataset here: https://www.creatis.insa-lyon.fr/Challenge/acdc/
+
+### Structure of synapse dataset folders 
 
 data/  
 &nbsp;|---imagesTr/  
@@ -66,7 +68,11 @@ python3.10 main.py
 
 
 ### Visulization 
-![](diagram/results_vis.jpg)
+## Synapse 
+![](diagram/synapse_vis.jpg)
+
+## ACDC
+![](diagram/acdc_vis.png)
 
 
 ## Testing 
