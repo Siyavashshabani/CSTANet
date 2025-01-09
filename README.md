@@ -52,7 +52,6 @@ The following settings can be adjusted in the `config.py` to configure the model
 - **`max_iterations`**: Specify the maximum number of iterations (or training steps).
 - **`eval_num`**: Set the frequency of evaluations (every `eval_num` iterations) during training.
 
-
 ## train the model 
 
 ```
