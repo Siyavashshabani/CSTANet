@@ -69,7 +69,6 @@ python3.10 main.py
 ## ACDC
 ![](diagram/acdc_vis.png)
 
-
 ## Citation
 If any part of this code is used, please give appropriate citations to our paper. <br />
 
