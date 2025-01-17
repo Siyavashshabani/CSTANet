@@ -29,7 +29,6 @@ data/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---label0002.nii.gz  
 &nbsp;|---dataset.json  
 
-
 ## Running the Code
 
 ## Training
@@ -74,4 +73,3 @@ If any part of this code is used, please give appropriate citations to our paper
 
 ## Contact
 If you have any questions, please email sshabani@unr.edu to discuss with the authors. <br />
-
