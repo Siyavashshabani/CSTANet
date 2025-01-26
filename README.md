@@ -11,7 +11,6 @@ python3.10 -m venv CSTANet_env
 source CSTANet_env/bin/activate 
 pip install -r requirements.txt
 ```
-
 ## Datasets
 
 Download synapse dataset here: https://www.synapse.org/#!Synapse:syn3193805/wiki/89480
