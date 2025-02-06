@@ -31,6 +31,7 @@ data/
 
 ## Running the Code
 
+
 ## Training
 
 Before training the configs.json file should be filled:
