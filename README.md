@@ -17,6 +17,7 @@ Download synapse dataset here: https://www.synapse.org/#!Synapse:syn3193805/wiki
 
 Download ACDC dataset here: https://www.creatis.insa-lyon.fr/Challenge/acdc/
 
+
 ### Structure of synapse dataset folders 
 
 data/  
