@@ -28,6 +28,11 @@ def main():
         use_checkpoint=config["use_checkpoint"],
     ).to(device)
 
+    x = torch.randn(1, 1, 128, 128, 128).to(device)
+    y = model(x)
+    print("Input shape-------", x.shape)
+    print("Out shape-------", y.shape)
+
     # Wrap the model with DataParallel for multi-GPU training
     if torch.cuda.device_count() > 1:
         print(f"Using {torch.cuda.device_count()} GPUs for training.")

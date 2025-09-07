@@ -6,10 +6,10 @@ from monai.networks.blocks import PatchEmbed, UnetOutBlock, UnetrBasicBlock, Une
 from monai.networks.layers import DropPath, trunc_normal_
 from monai.utils import ensure_tuple_rep, look_up_option, optional_import
 from monai.utils.deprecate_utils import deprecated_arg
-from model.fusion import BiFusion_block_3d
 from model.SwinViT.SwinViT import SwinTransformer, SwinTransformer_1, SwinTransformer_2, SwinTransformer_3
-from model.encoders import encoder1, encoder2, encoder3, encoder4
-from model.decoders import decoder1, decoder2, encoder3, decoder4
+from model.encoders import Encoder1, Encoder2, Encoder3, Encoder4
+from model.decoders import Decoder1, Decoder2, Decoder3, Decoder4, DecoderF
+
 
 import itertools
 from collections.abc import Sequence
