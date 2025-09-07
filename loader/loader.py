@@ -85,6 +85,7 @@ def data_transformers(num_samples, device):
           EnsureTyped(keys=["image", "label"], device=device, track_meta=False),
           ConvertLabelsToZero(keys=["label"], labels_to_zero=[5,9,10,12,13]),  # remove small organs
           ConvertPixelValues(keys=["label"], conversions={6: 5, 7: 6, 8: 7, 11: 8}),  # adjust class numbers
+          
           RandCropByPosNegLabeld(
               keys=["image", "label"],
               label_key="label",
@@ -95,6 +96,7 @@ def data_transformers(num_samples, device):
               image_key="image",
               image_threshold=0,
           ),
+          
           RandFlipd(
               keys=["image", "label"],
               spatial_axis=[0],
